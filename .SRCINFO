@@ -1,0 +1,39 @@
+pkgbase = qtcreator-clang8
+	pkgdesc = Lightweight, cross-platform integrated development environment
+	pkgver = 4.13.1
+	pkgrel = 1
+	url = https://www.qt.io
+	arch = x86_64
+	license = LGPL
+	makedepends = llvm8
+	makedepends = python
+	depends = qt5-tools
+	depends = qt5-quickcontrols
+	depends = qt5-quickcontrols2
+	depends = qt5-webengine
+	depends = clang8=8.0.1
+	depends = qbs
+	depends = clazy
+	depends = syntax-highlighting
+	depends = yaml-cpp
+	depends = desktop-file-utils
+	optdepends = qt5-doc: integrated Qt documentation
+	optdepends = qt5-examples: welcome page examples
+	optdepends = qt5-translations: for other languages
+	optdepends = gdb: debugger
+	optdepends = cmake: cmake project support
+	optdepends = x11-ssh-askpass: ssh support
+	optdepends = git: git support
+	optdepends = mercurial: mercurial support
+	optdepends = bzr: bazaar support
+	optdepends = valgrind: analyze support
+	optdepends = perf: performer analyzer
+	provides = qtcreator=4.13.1.clang8
+	conflicts = qtcreator
+	replaces = qtcreator
+	options = docs
+	source = https://download.qt.io/official_releases/qtcreator/4.13/4.13.1/qt-creator-opensource-src-4.13.1.tar.xz
+	sha256sums = 7a401bee0c5518e498ca7fb2d82c6713200def7928a706614dbf8f4d9a112bf9
+
+pkgname = qtcreator-clang8
+
